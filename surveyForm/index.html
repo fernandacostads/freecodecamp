@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Studio Games Extreme Reality</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <img src="assets/img/logo-sg.webp" alt="Logo Studio Games">
+      <!-- <h1 id="title">Studio Games</h1> -->
+      <p id="description">
+        FAÇA SUA INSCRIÇÃO! Reserve sua vaga na próxima turma!
+      </p>
+    </header>
+    <div id="main">
+      <form id="survey-form">
+        <div id="input-fields">
+          <label id="name-label"><b>Name:</b></label>
+          <input
+            id="name"
+            type="name"
+            name="name"
+            class="form"
+            required
+            placeholder="Seu Nome Completo"
+          />
+          <label id="email-label"><b>Email:</b></label>
+          <input
+            id="email"
+            type="email"
+            name="email"
+            class="form"
+            required
+            placeholder="Digite seu Email"
+          />
+
+          <label id="number-label"><b>Telefone:</b></label>
+          <input
+            id="number"
+            type="number"
+            name="number"
+            class="form"
+            min="11"
+            max="12"
+            placeholder="Seu telefone com DDD"
+          />
+        </div>
+        <div id="dropdown-div">
+          <label id="dropdown-label"
+            ><strong>Onde quero estudar: </strong></label
+          >
+          <select id="dropdown" name="code-lang" class="form" required>
+            <option value="" disabled selected>Onde quero estudar</option>
+            <option value="SP">Bauru - SP | Bauru Shopping</option>
+            <option value="DF">Brasília - DF | Shopping Pátio</option>
+            <option value="CE">Fortaleza - CE | Shopping Iguatemi</option>
+            <option value="MA">Imperatriz - MA | Shopping Imperial</option>
+            <option value="Go">Teresina - PI | Shopping Teresina</option>
+          </select>
+        </div>
+        <div id="button-area">
+          <label id="job-label"
+            ><b>Tenho interesse no seguinte curso:</b></label
+          >
+          <input
+            type="radio"
+            class="radio-inline"
+            name="gender"
+            value="employed"
+            checked
+          />
+          SG Gamer
+          <input
+            type="radio"
+            class="radio-inline"
+            name="gender"
+            value="freelancer"
+          />
+          Pro Player
+          <input
+            type="radio"
+            class="radio-inline"
+            name="gender"
+            value="applier"
+          />
+          Streamer Master
+          <input
+            type="radio"
+            class="radio-inline"
+            name="gender"
+            value="unemployed"
+          />
+          SG Coders
+        </div>
+        <div id="button-area">
+          <label id="os-label"
+            ><b>Plataformas que usei na Studio Games: </b>
+          </label>
+          <input type="checkbox" name="os1" value="windows" checked /> Arena
+          Gamer <input type="checkbox" name="os2" value="linux" /> Cockpits
+          <input type="checkbox" name="0s3" value="mac" /> Simulador de Vôo
+          <input type="checkbox" name="0s3" value="mac" /> Óculos Quest 2 VR
+        </div>
+        <div>
+          <label id="comments-label"
+            ><b>Quero adicionar uma observação:</b></label
+          >
+          <textarea
+            id="comments"
+            placeholder="Digite uma observação..."
+          ></textarea>
+          <input id="submit" value="Enviar" type="submit" class="form"/>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

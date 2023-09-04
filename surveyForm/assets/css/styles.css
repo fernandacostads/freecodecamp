@@ -1,0 +1,123 @@
+/* google font */
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+/* css reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-image: linear-gradient(
+      115deg,
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.7)
+    ),
+    url("https://lh3.googleusercontent.com/p/AF1QipMjSMjhdZJHC9f2aGyXtxyg3BB8GdL7mV9fUqyg=w1080-h608-p-no-v0");
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  font-size: 1.2vw;
+}
+
+header {
+  max-width: 900px;
+  margin: 3rem auto;
+  padding: 0.6rem auto 0 auto;
+}
+
+img {
+  margin: auto;
+}
+
+
+#main {
+  padding: 0% 20% 0% 20%;
+}
+
+#title {
+  font-size: 2.2rem;
+  text-align: center;
+  line-height: 1.2;
+  padding: 0.6rem;
+}
+
+#description {
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 0.1rem;
+  margin-top: 2rem;
+  font-weight: bold;
+}
+
+#survey-form {
+  background-color: rgba(27, 27, 50, 0.8);
+  padding: 3rem 2.5rem;
+  border-radius: 7px;
+}
+
+label {
+  display: block;
+  margin: 1rem 0 1rem 0;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-left: 18px;
+}
+
+#name::placeholder,
+#email::placeholder,
+#number::placeholder,
+#dropdown-label::placeholder,
+#comments::placeholder {
+  padding-left: 0.5em;
+}
+
+#name,
+#email,
+#number,
+#dropdown,
+#comments {
+  margin-bottom: 20px;
+}
+
+textarea {
+  padding-top: 0.5rem;
+  width: 100%;
+  border-radius: 3px;
+  height: 120px;
+}
+
+#button-area {
+  padding-bottom: 20px;
+}
+
+#submit {
+  background: #37af65;
+  color: #fff;
+  font-size: 1.15rem;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background: rgb(9, 168, 89);
+}
+
+.form {
+  margin: 0 auto;
+  width: 100%;
+  height: 38px;
+  border-radius: 3px;
+  font-size: 1rem;
+  border: none;
+}
+
+select:invalid {
+  color: gray;
+}
